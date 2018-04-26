@@ -16,11 +16,5 @@ public class IndexController {
         return "Hello Spring Boot!";
     }
 
-    @Autowired
-    private UserMapper userMapper;
 
-    @RequestMapping("/list")
-    public List<User> list() {
-        return userMapper.selectByExample(null);
-    }
 }
