@@ -13,7 +13,7 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String index() {
-        return "Hello Spring Boot666!";
+        return "Hello Spring Boot777!";
     }
 
 
