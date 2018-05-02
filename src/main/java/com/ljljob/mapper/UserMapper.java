@@ -3,7 +3,10 @@ package com.ljljob.mapper;
 import com.ljljob.entity.User;
 import com.ljljob.entity.UserExample;
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 public interface UserMapper {
     long countByExample(UserExample example);
